@@ -1,0 +1,125 @@
+html{
+    height: 100vh;
+    min-width: 600px;
+    background-image: linear-gradient(130deg, cyan, lime);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.container{
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin:auto;
+    font-family:'Railway', sans-serif;
+}
+.logo{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    max-width: 500px;
+    padding: 1rem 0;
+    align-items: center;
+}
+.main{
+    padding: 20px;
+}
+form {
+    /* background-color:bisque; */
+    padding: 15px;
+    /* border-radius: 5px; */
+    display: flex;
+    /* border: 1px solid darkslategray; */
+}
+input[type="text"]{
+    height: 30px;
+    outline: 0;
+    border: none;
+    font-size: 1rem;
+    font-family: 'Relaway', sans-serif;
+    color: lightslategray;
+    flex-grow:1;
+    border: 3px solid darkslategray;
+    border-radius: 5px;
+    /* border-right: none; */
+}
+ .btn-sty{
+    font-size: 1.5rem;
+    background-color:rgb(190, 76, 76);;
+    /* outline:0; */
+    /* border:none; */
+    color:rgb(102, 55, 10);
+    border: 3px solid darkslategray;
+    border-radius: 5px;
+    /* border-right: none;  */
+    margin-left: 6px;
+ }
+button:hover {
+   color: lightcoral;
+}
+.todolist{
+    background-color:cornsilk;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 10px, 25px;
+    height: 100%;
+}
+ul{
+    padding-left: 0px;
+    list-style:none;
+}
+li{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid lightslategray;
+    padding: 15px 0;
+    font-size: 1rem;
+    color:rgb(82, 27, 27);
+}
+i{
+    pointer-events: none;
+}
+.clearAll {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+.clearAll:hover{
+     color: lightcoral;
+} 
+.button{
+    height:20px;
+    width:20px;
+}
+.check-style{
+    font-size: 1.5rem;
+    display: flex;
+    background-color:rgb(190, 76, 76);;
+    outline:0;
+    /* border:none; */
+    color:rgb(102, 55, 10);
+    border: 3px solid darkslategray;
+    border-radius: 5px;
+    height:25px;
+    width:25px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3px;
+}
+.delete-style{
+    display:flex;
+    font-size: 1.5rem;
+    background-color:rgb(190, 76, 76);;
+    outline:0;
+    /* border:none; */
+    color:rgb(102, 55, 10);
+    border: 3px solid darkslategray;
+    border-radius: 5px;
+    margin-left: 3px;
+    height:25px;
+    width:25px;
+    align-items:center;
+    justify-content:center;
+}
